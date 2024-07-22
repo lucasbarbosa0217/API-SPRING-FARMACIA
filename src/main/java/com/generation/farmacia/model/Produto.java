@@ -76,4 +76,15 @@ public class Produto {
 	public void setId(Long id) {
 		this.id = id;
 	}
+
+	public Produto(Long id, String nome, Integer estoque, BigDecimal preco, Categoria categoria) {
+		this.id = id;
+		this.nome = nome;
+		this.estoque = estoque;
+		this.preco = preco;
+		this.categoria = categoria;
+	}
+	
+	public Produto() {}
+	
 }
