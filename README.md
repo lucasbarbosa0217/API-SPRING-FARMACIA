@@ -108,26 +108,3 @@ Content-Type: application/json
 ```http
 GET /produto
 ```
-
-## Testes
-
-Os testes são configurados para garantir que a aplicação funcione corretamente. Eles cobrem a criação, atualização, listagem e exclusão de produtos e categorias.
-
-Para mais informações sobre como executar os testes, consulte a seção [Executar Testes](#executar-testes).
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com o projeto. Para contribuir, siga estas etapas:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch com sua nova funcionalidade (`git checkout -b minha-nova-funcionalidade`).
-3. Faça commit das suas alterações (`git commit -am 'Adiciona nova funcionalidade'`).
-4. Faça push para a branch (`git push origin minha-nova-funcionalidade`).
-5. Crie um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-```
-
-Copie e cole esse código em um arquivo chamado `README.md` no diretório raiz do seu projeto. Se precisar de mais ajuda, é só avisar!
