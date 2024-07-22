@@ -38,7 +38,7 @@ public class CategoriaControllerTest {
 	}
 
 	@Test
-	@DisplayName("Criar tema")
+	@DisplayName("Criar categoria")
 	public void deveCriarUmTema() {
 		HttpEntity<Categoria> corpoRequisicao = new HttpEntity<Categoria>(new Categoria(0L, "Cosmético", new ArrayList<Produto>()));
 
