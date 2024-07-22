@@ -42,6 +42,18 @@ public class Categoria {
 		return descricao;
 	}
 
+	public Categoria() {}
+	
+	public Categoria(Long id) {
+		this.id = id;
+	}
+
+	public Categoria(Long id, String descricao, List<Produto> produto) {
+		this.id = id;
+		this.descricao = descricao;
+		this.produto = produto;
+	}
+
 	public List<Produto> getProduto() {
 		return produto;
 	}
