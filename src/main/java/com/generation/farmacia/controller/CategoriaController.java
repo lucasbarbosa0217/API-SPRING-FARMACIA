@@ -39,7 +39,6 @@ public class CategoriaController {
 		return ResponseEntity.ok(categoriaRepository.findAllByDescricaoContainingIgnoreCase(descricao));
 	}
 
-	
 	@GetMapping("/{id}")
 	public ResponseEntity<Categoria> getById(@PathVariable Long id){
 		Optional<Categoria> categoriaBd = categoriaRepository.findById(id);
@@ -48,14 +47,12 @@ public class CategoriaController {
 			return ResponseEntity.ok(categoriaBd.get());
 		}
 		throw new ResponseStatusException(HttpStatus.NOT_FOUND , "Este id de categoria não existe no banco de dados.");
-
 	}
 	
 	@PostMapping
 	public ResponseEntity<Categoria> post(@Valid @RequestBody Categoria categoria){
 		return ResponseEntity.status(HttpStatus.CREATED).body(categoriaRepository.save(categoria));
 	}
-	
 	
 	@PutMapping
 	public ResponseEntity<Categoria> put(@Valid @RequestBody Categoria categoria){
@@ -73,9 +70,7 @@ public class CategoriaController {
 		if (categoria.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND , "Este id de categoria não existe no banco de dados.");
 		}
-
 		categoriaRepository.deleteById(id);
 	}
 	
-
 }
