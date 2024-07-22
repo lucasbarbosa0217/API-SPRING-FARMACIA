@@ -11,9 +11,7 @@ Este é um projeto de uma aplicação de gerenciamento de produtos e categorias 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação e Configuração](#instalação-e-configuração)
 - [Uso](#uso)
-- [Testes](#testes)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+
 
 ## Descrição
 
@@ -69,6 +67,8 @@ Para executar os testes unitários e de integração, use o Maven:
 
 ### Endpoints Disponíveis
 
+Você pode consultar a documentação Swagger da API acessando o endpoint raiz da aplicação: `http://localhost:8080`
+
 #### Categorias
 
 - **Criar Categoria**: `POST /categoria`
@@ -108,3 +108,4 @@ Content-Type: application/json
 ```http
 GET /produto
 ```
+
