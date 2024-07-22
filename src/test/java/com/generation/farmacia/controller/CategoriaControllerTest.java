@@ -65,7 +65,7 @@ public class CategoriaControllerTest {
 	}
 
 	@Test
-	@DisplayName("Listar todos os Usuários")
+	@DisplayName("Listar todas as Categorias")
 	public void deveMostrarTodasCategorias() {
 		HttpEntity<Categoria> corpoRequisicao1 = new HttpEntity<Categoria>(new Categoria(0L, "Cosmético", new ArrayList<Produto>()));
 
@@ -86,7 +86,7 @@ public class CategoriaControllerTest {
 	}
 	
 	@Test
-	@DisplayName("Listar usuario por id")
+	@DisplayName("Listar categoria por id")
 	public void deveMostrarCategoriaPorId() {
 		HttpEntity<Categoria> corpoRequisicao1 = new HttpEntity<Categoria>(new Categoria(0L, "Cosmético", new ArrayList<Produto>()));
 
