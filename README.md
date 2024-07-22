@@ -1,6 +1,6 @@
-Peço desculpas por isso! Vou corrigir e enviar o `README.md` inteiro no formato de código.
 
-```markdown
+
+
 # Farmácia
 
 Este é um projeto de uma aplicação de gerenciamento de produtos e categorias em uma farmácia, desenvolvida com Spring Boot e com uma API REST para interagir com o sistema. A aplicação permite criar, atualizar, listar e excluir produtos e categorias.
